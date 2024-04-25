@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"> 
+  </script> 
+  <script> 
+   $(document).ready(function () { 
+    $("#but1").click(function () { 
+     $(".hide").hide(); 
+    }); 
+    $("#but2").click(function () { 
+     $(".hide").show(); 
+    }); 
+   }); 
+  </script> 
+ </head> 
+ <p> 
+  <button id="but1">Спрятать повторяющиеся абзацы</button> 
+  <button id="but2">Показать все</button>
+  <p class = "hide"><a href="#">Понедельник</a></p>
+  <p>Понедельник</p>
+  <p class = "hide"><a href="#">Вторник</a></p>
+  <p>Вторник</p>
+  <p>Среда</p>
+  <p>Четверг</p>
+  <p>Пятница</p>
+  <p class = "hide"><a href="#">Пятница</a></p>
+ </body> 
+</html> 
